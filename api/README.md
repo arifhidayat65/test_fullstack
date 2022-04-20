@@ -34,6 +34,7 @@ this.context = new Context('mongodb://localhost:27017', enableLogging);
 - MongoDB
 - Mongoose
 - JavaScript
+- Nodemon agar ketika ada perubahan dalam setiap code maka akan restart secara otomatis tetapi tidak di anjurkan untuk di gunakan di deployment maupun di production
 
 ## Notes
 - saya sertakan file collection postman.
