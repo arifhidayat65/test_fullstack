@@ -14,7 +14,7 @@ this.context = new Context('mongodb://localhost:27017', enableLogging);
 
 ## Endpoints
 
-### Kursus Endpoint
+### Kursus Endpoint User
 - GET /api/users 200 - Mengembalikan pengguna yang saat ini diautentikasi
 
 - POST /api/users 201 - Membuat pengguna, mengatur header Lokasi ke "/", dan tidak mengembalikan konten
